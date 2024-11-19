@@ -1,0 +1,45 @@
+// variables
+$md-screen: 600px;
+
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+main { 
+    width: 900px;
+    margin: 0 auto;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+
+    @include media-minwidth($md-screen){ 
+        flex-direction: row;
+    }
+}
+
+.card {
+	border: black 1px solid;
+	padding: 15px;
+	margin: 15px;
+
+    width: 200px;
+
+	&-title {
+		font-size: 2rem;
+	}
+}
+
+.primary-button {
+	border: none;
+	padding: 15px;
+	color: white;
+
+	&-red {
+		background-color: red;
+	}
+	&-green {
+		background-color: green;
+	}
+}

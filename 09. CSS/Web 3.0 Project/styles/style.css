@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@media (min-width: 1440px) {
+  .header {
+    margin: 72px 165px;
+  }
+}
+
+.header-container {
+  margin: 28px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1440px) {
+  .menu-burger-button {
+    display: none;
+  }
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+.menu-list-link {
+  list-style: none;
+  text-align: end;
+}
+@media (min-width: 1440px) {
+  .menu-list-link {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-list-link li {
+    margin: 0 15px;
+  }
+}
+
+.body {
+  margin: 0 16px;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1440px) {
+  .body-container {
+    flex-direction: row;
+    margin: 0;
+  }
+}
+@media (min-width: 1440px) {
+  .body-hero {
+    margin: 0 32px 0 0;
+  }
+}
+@media (min-width: 1440px) {
+  .body-content {
+    display: flex;
+  }
+}
+.body-img {
+  margin: auto;
+  width: 100%;
+  max-width: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 1440px) {
+  .body-img {
+    max-width: none;
+    max-height: 300px;
+    margin: 0 0 32px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .body-content-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 150px;
+  }
+}
+.body-title {
+  color: #00001A;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: left;
+}
+@media (min-width: 1440px) {
+  .body-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 56px;
+    text-align: left;
+    width: 50%;
+    margin: 0 32px 0 0;
+  }
+}
+.body-text {
+  color: #5E607A;
+}
+@media (min-width: 1440px) {
+  .body-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+.body-button {
+  background-color: #F15D51;
+  color: #FFFDFA;
+  width: 100%;
+  max-width: 185px;
+  height: 48px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 4.38px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  background-color: #00001A;
+  margin: 64px 0 0 0;
+}
+@media (min-width: 1440px) {
+  .news {
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+  }
+}
+.news-container {
+  padding: 24px 20px;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .news-container {
+    height: 100%;
+  }
+}
+.news-heading {
+  color: #E9AA52;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 0 35px 0;
+}
+.news-articles hr {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .news-articles {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .news-articles hr {
+    display: block;
+    color: #FFFDFA;
+    width: 100%;
+  }
+}
+.news-article:nth-child(2) {
+  margin: 61px 0;
+}
+.news-title {
+  color: #FFFDFA;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.news-subtitle {
+  color: #FFFDFA;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.blog {
+  margin: 64px 16px 80px 16px;
+}
+@media (min-width: 1440px) {
+  .blog {
+    margin: 71px 0 129px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .blog-container {
+    height: auto;
+  }
+}
+.blog-articles {
+  height: 100%;
+  min-height: 451px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .blog-articles {
+    flex-direction: row;
+    min-height: auto;
+  }
+}
+.blog-article {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1440px) {
+  .blog-article {
+    padding: 0 15px;
+  }
+}
+.blog-img {
+  margin: 0 24px 0 0;
+  max-width: 100px;
+  max-height: 129px;
+}
+.blog-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-number {
+  color: #D8D8D8;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+.blog-content-title {
+  color: #00001A;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+.blog-content-subtitle {
+  color: #5E607A;
+  font-size: 15px;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 1440px) {
+  main {
+    margin: 0 165px;
+  }
+}/*# sourceMappingURL=style.css.map */

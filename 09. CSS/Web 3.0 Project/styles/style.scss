@@ -1,0 +1,25 @@
+@import 'colors';
+@import 'header';
+@import 'body';
+@import 'news';
+@import 'blog';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+$desktop: 1440px;
+
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+
+body { 
+    font-family: 'Inter', sans-serif;
+}
+
+main { 
+    @include media-minwidth($desktop){ 
+        margin: 0 165px;
+    }
+}

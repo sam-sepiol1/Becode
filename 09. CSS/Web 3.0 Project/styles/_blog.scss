@@ -1,0 +1,79 @@
+@import 'colors'; 
+
+$desktop: 1440px;
+
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+		}
+	}
+
+.blog { 
+    margin: 64px 16px 80px 16px;
+
+    @include media-minwidth($desktop){ 
+        margin: 71px 0 129px 0;
+
+    }
+
+    &-container { 
+        @include media-minwidth($desktop){ 
+            height: auto;
+        }
+    }
+
+    &-articles { 
+        height: 100%;
+        min-height: 451px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include media-minwidth($desktop){ 
+            flex-direction: row;
+            min-height: auto;
+        }
+        
+    }
+    &-article { 
+        display: flex;
+        align-items: center;
+
+        @include media-minwidth($desktop){ 
+            padding: 0 15px;
+        }
+        
+    }
+
+    &-img{ 
+        margin: 0 24px 0 0;
+        max-width: 100px;
+        max-height: 129px;
+    }
+
+    &-content { 
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-number  {
+        color: $grey;
+        font-weight: bold;
+        font-size: 32px;
+        margin: 0;
+    }
+
+    &-content-title { 
+        color: $dark-space-blue;
+        font-weight: 800;
+        font-size: 18px;
+        margin: 0;
+    }
+    &-content-subtitle { 
+        color: $gun-metal;
+        font-size: 15px;
+        margin: 0;
+    }
+}

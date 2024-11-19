@@ -1,0 +1,96 @@
+$desktop: 1440px;
+
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+
+.body {
+	margin: 0 16px;
+
+	&-container {
+		display: flex;
+		flex-direction: column;
+
+		@include media-minwidth($desktop) {
+			flex-direction: row;
+			margin: 0;
+		}
+	}
+
+	&-hero {
+		@include media-minwidth($desktop) {
+			margin: 0 32px 0 0;
+		}
+	}
+
+	&-content {
+		@include media-minwidth($desktop) {
+			display: flex;
+		}
+	}
+
+	&-img {
+		margin: auto;
+		width: 100%;
+		max-width: 343px;
+		object-fit: cover;
+
+		@include media-minwidth($desktop) {
+			max-width: none;
+			max-height: 300px;
+			margin: 0 0 32px 0;
+		}
+	}
+
+	&-content-description {
+		@include media-minwidth($desktop) {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			padding: 0 150px;
+		}
+	}
+
+	&-title {
+		color: $dark-space-blue;
+		font-size: 40px;
+		font-weight: 800;
+		line-height: 40px;
+		text-align: left;
+
+		@include media-minwidth($desktop) {
+			font-size: 56px;
+			font-weight: 800;
+			line-height: 56px;
+			text-align: left;
+			width: 50%;
+			margin: 0 32px 0 0;
+		}
+	}
+
+	&-text {
+		color: $gun-metal;
+
+		@include media-minwidth($desktop) {
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 26px;
+		}
+	}
+
+	&-button {
+		background-color: $light-vermillion;
+		color: $white;
+		width: 100%;
+		max-width: 185px;
+		height: 48px;
+		border: none;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 24px;
+		letter-spacing: 4.38px;
+	}
+}

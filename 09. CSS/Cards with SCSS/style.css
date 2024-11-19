@@ -1,0 +1,36 @@
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.card {
+  border: black 1px solid;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+}
+.card-title {
+  font-size: 2rem;
+}
+
+.primary-button {
+  border: none;
+  padding: 15px;
+  color: white;
+}
+.primary-button-red {
+  background-color: red;
+}
+.primary-button-green {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
