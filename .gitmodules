@@ -1,0 +1,96 @@
+[submodule "03. Javascript/02. Variables/02-02-variable-declarations-sam-sepiol1"]
+	path = 03. Javascript/02. Variables/02-02-variable-declarations-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/02-02-variable-declarations-sam-sepiol1.git
+[submodule "03. Javascript/02. Variables/02-03-variables-naming-rules-sam-sepiol1"]
+	path = 03. Javascript/02. Variables/02-03-variables-naming-rules-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/02-03-variables-naming-rules-sam-sepiol1.git
+[submodule "03. Javascript/02. Variables/02-04-variable-scope-sam-sepiol1"]
+	path = 03. Javascript/02. Variables/02-04-variable-scope-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/02-04-variable-scope-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-01-data-types-string-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-01-data-types-string-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-01-data-types-string-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-02-data-types-undefined-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-02-data-types-undefined-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-02-data-types-undefined-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-03-data-types-number-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-03-data-types-number-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-03-data-types-number-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-05-data-types-boolean-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-05-data-types-boolean-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-05-data-types-boolean-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-06-data-types-null-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-06-data-types-null-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-06-data-types-null-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-07-data-types-objects-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-07-data-types-objects-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-07-data-types-objects-sam-sepiol1.git
+[submodule "03. Javascript/03. Data Types/03-08-data-types-typeof-sam-sepiol1"]
+	path = 03. Javascript/03. Data Types/03-08-data-types-typeof-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/03-08-data-types-typeof-sam-sepiol1.git
+[submodule "03. Javascript/04. Arrays & JSON/04-01-indexed-collections-arrays-sam-sepiol1"]
+	path = 03. Javascript/04. Arrays & JSON/04-01-indexed-collections-arrays-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/04-01-indexed-collections-arrays-sam-sepiol1.git
+[submodule "03. Javascript/04. Arrays & JSON/04-02-structured-data-json-sam-sepiol1"]
+	path = 03. Javascript/04. Arrays & JSON/04-02-structured-data-json-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/04-02-structured-data-json-sam-sepiol1.git
+[submodule "03. Javascript/06. Loops/06-01-loops-and-iterations-do-while-sam-sepiol1"]
+	path = 03. Javascript/06. Loops/06-01-loops-and-iterations-do-while-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/06-01-loops-and-iterations-do-while-sam-sepiol1.git
+[submodule "03. Javascript/06. Loops/06-01-loops-and-iterations-for-sam-sepiol1"]
+	path = 03. Javascript/06. Loops/06-01-loops-and-iterations-for-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/06-01-loops-and-iterations-for-sam-sepiol1.git
+[submodule "03. Javascript/06. Loops/06-03-loops-and-iterations-while-sam-sepiol1"]
+	path = 03. Javascript/06. Loops/06-03-loops-and-iterations-while-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/06-03-loops-and-iterations-while-sam-sepiol1.git
+[submodule "03. Javascript/06. Loops/06-04-loops-and-iterations-for-of-sam-sepiol1"]
+	path = 03. Javascript/06. Loops/06-04-loops-and-iterations-for-of-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/06-04-loops-and-iterations-for-of-sam-sepiol1.git
+[submodule "03. Javascript/06. Loops/06-05-loops-and-iterations-break-continue-sam-sepiol1"]
+	path = 03. Javascript/06. Loops/06-05-loops-and-iterations-break-continue-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/06-05-loops-and-iterations-break-continue-sam-sepiol1.git
+[submodule "03. Javascript/07. Conditionning/07-01-control-flow-conditional-statements-if-else-sam-sepiol1"]
+	path = 03. Javascript/07. Conditionning/07-01-control-flow-conditional-statements-if-else-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/07-01-control-flow-conditional-statements-if-else-sam-sepiol1.git
+[submodule "03. Javascript/07. Conditionning/07-02-control-flow-conditional-statements-switch-sam-sepiol1"]
+	path = 03. Javascript/07. Conditionning/07-02-control-flow-conditional-statements-switch-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/07-02-control-flow-conditional-statements-switch-sam-sepiol1.git
+[submodule "03. Javascript/08. Task Manager/08-01-functions-task-manager-sam-sepiol1"]
+	path = 03. Javascript/08. Task Manager/08-01-functions-task-manager-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/08-01-functions-task-manager-sam-sepiol1.git
+[submodule "03. Javascript/09. Classes/09-01-discovering-classes-and-this-sam-sepiol1"]
+	path = 03. Javascript/09. Classes/09-01-discovering-classes-and-this-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/09-01-discovering-classes-and-this-sam-sepiol1.git
+[submodule "03. Javascript/09. Classes/09-02-practicing-classes-and-this-sam-sepiol1"]
+	path = 03. Javascript/09. Classes/09-02-practicing-classes-and-this-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/09-02-practicing-classes-and-this-sam-sepiol1.git
+[submodule "03. Javascript/10. Johnemon/10-01-javascript-recap-johnemon-sam-sepiol1"]
+	path = 03. Javascript/10. Johnemon/10-01-javascript-recap-johnemon-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/10-01-javascript-recap-johnemon-sam-sepiol1.git
+[submodule "03. Javascript/clean-code-javascript"]
+	path = 03. Javascript/clean-code-javascript
+	url = https://github.com/ryanmcdermott/clean-code-javascript.git
+[submodule "04. SQL/backend-database-2-sam-sepiol1"]
+	path = 04. SQL/backend-database-2-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/backend-database-2-sam-sepiol1.git
+[submodule "04. SQL/backend-databases-intro-sam-sepiol1"]
+	path = 04. SQL/backend-databases-intro-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/backend-databases-intro-sam-sepiol1.git
+[submodule "06. NodeJS/nodejs-part1-sam-sepiol1"]
+	path = 06. NodeJS/nodejs-part1-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/nodejs-part1-sam-sepiol1.git
+[submodule "07. Lokker Room/lokkeroom"]
+	path = 07. Lokker Room/lokkeroom
+	url = https://github.com/MaTor97/lokkeroom.git
+[submodule "08. HTML/html-css-intro-sam-sepiol1"]
+	path = 08. HTML/html-css-intro-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/html-css-intro-sam-sepiol1.git
+[submodule "09. CSS/css-advanced-sam-sepiol1"]
+	path = 09. CSS/css-advanced-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/css-advanced-sam-sepiol1.git
+[submodule "09. CSS/css-basics-sam-sepiol1"]
+	path = 09. CSS/css-basics-sam-sepiol1
+	url = https://github.com/Junior-dev-Track/css-basics-sam-sepiol1.git
+[submodule "10. Scoot Project/scoot-project-becode"]
+	path = 10. Scoot Project/scoot-project-becode
+	url = https://github.com/sam-sepiol1/scoot-project-becode.git
