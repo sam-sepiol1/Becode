@@ -1,4 +1,5 @@
-const learners = ["Alice", "Bob", "Charlie", "Diana", "Eve"];
+const learners = ["John", "Jane", "Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hank", "Ivy", "Jack", "Kara", "Leo", "Mona", "Nina", "Oscar", "Paul", "Quinn", "Rose", "Sam", "Tina", "Uma", "Vince", "Wendy"];
+
 learners.sort(() => Math.random() - 0.5);
 
 const article = document.querySelector("article");
@@ -21,7 +22,7 @@ function isDarkColor(color) {
 
 console.log(randomColor());
 
-for (const learner of learners) {
+learners.forEach(learner => {
 	const section = document.createElement("section");
 	const paragraph = document.createElement("p");
 
@@ -34,4 +35,4 @@ for (const learner of learners) {
 
 	article.appendChild(section);
 	section.appendChild(paragraph);
-}
+});
