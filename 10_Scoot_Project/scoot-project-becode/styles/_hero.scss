@@ -1,0 +1,90 @@
+@use "colors" as *;
+
+$md-screen: 768px;
+$lg-screen: 1040px;
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+
+.hero {
+	margin-bottom: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 120px;
+	color: $dark-navy;
+	
+	@include media-minwidth($lg-screen) {
+		width: 75%;
+		margin: auto;
+	}
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 32px;
+		gap: 56px;
+		
+		&-image img { 
+			min-height: 311px;
+			min-width: 311px;
+		}
+
+		@include media-minwidth($lg-screen) {
+			flex-direction: row;
+			min-height: 445px;
+			gap: 120px;
+			justify-content: center;
+			align-items: center;
+
+			&-reverse {
+				flex-direction: row-reverse;
+			}
+
+			&-image {
+				height: 445px;
+				width: 445px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img { 
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&-text {
+				align-items: flex-start;
+				text-align: left;
+				width: 100%;
+			}
+
+			.left-align {
+				display: flex;
+				justify-content: right;
+			}
+		}
+
+
+		&-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			gap: 24px;
+		}
+
+		&-text-paragraph {
+			color: $dim-grey;
+		}
+
+		
+	}
+}

@@ -1,0 +1,47 @@
+@use 'colors' as *;
+@use 'responsive' as *;
+
+.values {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 64px;
+	padding: 0 32px;
+	color: $dark-navy;
+	margin-bottom: 128px;
+	@include media-minwidth($md-screen) {
+		margin: 0 155px;
+		margin-bottom: 128px;
+	}
+
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		gap: 56px;
+		@include media-minwidth($lg-screen) {
+			flex-direction: row;
+			gap: 30px;
+		}
+	}
+
+	&-content-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+		height: fit-content;
+		gap: 16px;
+	}
+
+	&-content-item-title {
+		color: $dark-navy;
+	}
+	&-content-item-paragraph {
+		color: $dim-grey;
+	}
+
+}

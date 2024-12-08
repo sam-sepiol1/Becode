@@ -1,0 +1,190 @@
+@use "colors" as *;
+
+.footer {
+    width: 100%;
+    min-width: 375px;
+    font-family: "Space Mono";
+
+    //Background image
+    background: url(../assets/circles.svg) $dark-navy;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: right -157px top 157px;
+    //-------------------
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &-navbar {
+        width: 100%;
+        background-color: #333a44;
+        img {
+            width: 108px;
+            height: 29px;
+        }
+        &-container {
+            width: inherit;
+            padding: 64px 128px 88px 128px;
+            display: flex;
+            flex-direction: column;
+            gap: 85px;
+        }
+
+        &-links {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 3.5;
+            align-items: center;
+
+            a {
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+
+        &-linkslist {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: $dim-grey;
+        }
+        svg {
+            width: 24px;
+            height: 24px;
+            fill: $yellow;
+            &:hover {
+                fill: $light-grey;
+            }
+        }
+
+        &-socialicons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+
+    &-signup {
+        position: relative;
+        overflow: hidden;
+        padding: 88px 32px;
+        display: flex;
+        flex-direction: column;
+        color: #ffff;
+        gap: 40px;
+        align-items: center;
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: -1.5px;
+        }
+    }
+
+
+
+    &-buttons {
+        display: flex;
+        gap: 13px;
+    }
+
+    &-button {
+        display: flex;
+        background-color: $light-grey;
+        font-family: "Space Mono";
+        text-decoration: none;
+        padding: 6px 11.5px 6px 11.5px;
+        color: $dark-navy;
+        border-radius: 5px;
+
+        svg {
+            width: 17px;
+            height: 24px;
+            fill: $dark-navy;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &-content {
+            margin-left: 5px;
+            &-subtitle {
+                font-size: 6px;
+            }
+
+            &-title {
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        &-title {
+            h1{
+                font-size: 48px;
+                line-height: 48px;
+            }
+        }       
+        &-navbar {
+            &-container {
+                flex-direction: row;
+                padding: 35px 40px;
+                justify-content: space-between;
+            }
+            &-links {
+                flex-direction: row;
+                gap: 59px;
+                line-height:unset;
+            }
+            &-linkslist {
+                display: flex;
+    flex-direction: row;
+    gap: 32px;
+    
+            }
+        }
+    }
+}
+
+@media(min-width:1024px) {
+.footer {
+    &-signup {
+        flex-direction: row;
+        justify-content: space-between;
+        h1{
+            text-align: left;
+        }
+    }
+}
+}
+
+@media(min-width:1440px){
+    .footer{
+        &-signup{
+            padding: 102px 165px;
+            gap:336px;
+        }
+
+        &-navbar{
+            &-container {
+                padding: 35px 162px 32px 165px;
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+@use "colors" as *;
+@use 'responsive' as *;
+
+// *{
+//     outline: 1px green solid;
+// }
+.steps, .infos {
+    max-width: 1440px;
+    margin: auto auto;
+}
+
+.hero-index {
+    background: url(../assets/index/man-on-scooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 32px 50px 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-index-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.hero-index-content-title, .hero-index-content-text { 
+    color: $snow;
+    text-align: center;
+}
+
+.steps {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+    &-container {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 32px;
+        
+        @include media-minwidth($lg-screen){ 
+            width: 75%;
+        }
+    }
+
+    &-step {
+        display: flex; //make each step content as row
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        text-align: center;
+  
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+        }
+        &-title {
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            color: $dark-navy;
+            letter-spacing: -0.892857px;
+        }
+        &-text {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dim-grey;
+        }
+
+        &-icon { 
+            max-width: 25%;
+        }
+    }
+}
+
+.infos {
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 0 32px;
+    
+        &-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }  
+    
+        &-info-article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 32px;
+        }  
+
+}
+
+.infos-info-article-title { 
+    color: $dark-navy;
+}
+.infos-info-article-text { 
+    color: $dim-grey;
+}
+
+@include media-minwidth($md-screen){ 
+    .hero-index {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-index-content{
+        width: 50%;
+        align-items: center;
+    }
+
+    .steps-step { 
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 40px;
+    }
+
+
+
+
+}
+
+@include media-minwidth($lg-screen){ 
+    
+    .steps { 
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .steps-container { 
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 75%;
+        max-width: $lg-screen;
+    }
+
+
+    .steps-step { 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .infos { 
+        align-items: center;
+        width: 100%;
+    }
+
+    .infos-info{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+        width: 75%;
+        max-width: $lg-screen;
+    }
+
+    .info-invert { 
+        flex-direction: row-reverse;
+    }
+
+    .infos-info-image { 
+        width: 100%;
+    }
+
+
+}
+
+

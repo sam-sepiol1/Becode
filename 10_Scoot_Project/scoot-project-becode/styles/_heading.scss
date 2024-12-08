@@ -1,0 +1,36 @@
+@use 'colors' as *;
+
+$md-screen: 768px;
+$lg-screen: 1040px;
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+.heading {
+	background-size: cover;
+	background-position: center;
+	color: $snow;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 80px 0;
+	margin-bottom: 72px;
+	width: 100%;
+	&-logo {
+		display: none;
+	}
+	@include media-minwidth($md-screen) {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		&-logo {
+			display: block;
+		}
+
+		&-title {
+			margin-left: 32px;
+		}
+	}
+}

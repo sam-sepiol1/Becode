@@ -1,0 +1,128 @@
+@use "colors" as *;
+@use "typography" as *;
+@use "responsive" as *;
+
+// * {
+// outline: 1px solid red;
+// }
+
+main {
+	overflow: hidden;
+}
+
+.d-none {
+	display: none;
+}
+
+.arrow-reverse {
+	transform: rotate(180deg);
+}
+
+.heading-about {
+	background-image: url("../assets/about/heading-background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.faq {
+	color: $dark-navy;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 64px;
+	max-width: 75%;
+	margin: 120px auto 160px auto;
+
+	&-arrow { 
+		width: 16px;
+	}
+
+	&-heading { 
+		width: 100%;
+	}
+
+
+	&-work,
+	&-safety {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		@include media-minwidth($lg-screen) {
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+		}
+
+	}
+
+	&-content-item-head {
+		display: flex;
+		gap: 16px;
+		justify-content: space-between;
+		padding: 16px;
+		width: 100%;
+		@include media-minwidth($md-screen) {
+			justify-content: space-between;
+			flex-direction: row;
+			padding: 0 40px 0 32px;
+		}
+	}
+
+	&-toggle-button {
+		display: flex;
+		background: none;
+		border: none;
+		padding: 8px;
+		font-size: 16px;
+		cursor: pointer;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	&-title {
+		margin-bottom: 32px;
+		text-align: center;
+	}
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 32px;
+		width: 100%;
+	}
+
+	&-content-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 16px;
+		background-color: $snow;
+		width: 100%;
+	}
+
+	&-content-item-title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: -0.803571px;
+		color: $dark-navy;
+		padding: 50px 0;
+	}
+}
+
+.faq-answer {
+	text-align: left;
+	padding: 0 32px 32px 32px;
+	margin-top: -32px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+
+	color: $dim-grey;
+}

@@ -1,0 +1,56 @@
+/* Default styles for mobile */
+body {
+    background: gold;
+  }
+  
+  h2 {
+    display: none;
+  }
+  
+  @media (max-width: 767px){ 
+    h2.a {
+      display: block;
+    }
+  }
+   
+  /* Tablet styles */
+  @media (min-width: 768px) and (max-width: 1279px){
+    body {
+      background: pink;
+    }
+    h2.b {
+      display: block;
+    }
+  }
+  
+  /* Laptop 13 inches styles */
+  @media (min-width: 1280px) and (max-width:1439px) {
+    body {
+      background: chocolate;
+    }  
+    h2.c {
+      display: block;
+    }
+  }
+  
+  /* Laptop styles */
+  @media (min-width: 1440px) and (max-width: 1919px){
+    body {
+      background: cadetblue;
+    }
+ 
+    h2.d {
+      display: block;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1920px) {
+    body {
+      background: cornflowerblue;
+    }
+  
+    h2.e {
+      display: block;
+    }
+  }

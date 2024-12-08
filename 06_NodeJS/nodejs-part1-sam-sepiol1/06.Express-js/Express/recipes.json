@@ -1,0 +1,646 @@
+    [
+        {
+            "id": 1,
+            "name": "Spaghetti Carbonara",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["spaghetti", "eggs", "parmesan cheese", "pancetta", "black pepper"],
+            "steps": [
+                "Boil the spaghetti.",
+                "Cook the pancetta until crispy.",
+                "Mix eggs and parmesan cheese in a bowl.",
+                "Combine spaghetti, pancetta, and egg mixture.",
+                "Season with black pepper and serve."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Chicken Curry",
+            "timeToPrepare": "45 minutes",
+            "ingredients": ["chicken", "onions", "tomatoes", "garlic", "ginger", "spices", "coconut milk"],
+            "steps": [
+                "Sauté onions, garlic, and ginger.",
+                "Add spices and cook for a minute.",
+                "Add chicken and brown it.",
+                "Add tomatoes and cook until soft.",
+                "Pour in coconut milk and simmer until chicken is cooked through."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Vegetable Stir Fry",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["mixed vegetables", "soy sauce", "garlic", "ginger", "sesame oil"],
+            "steps": [
+                "Heat sesame oil in a pan.",
+                "Add garlic and ginger and sauté.",
+                "Add mixed vegetables and stir fry until tender.",
+                "Pour in soy sauce and cook for another minute.",
+                "Serve hot."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Beef Tacos",
+            "timeToPrepare": "25 minutes",
+            "ingredients": ["ground beef", "taco seasoning", "taco shells", "lettuce", "tomatoes", "cheese"],
+            "steps": [
+                "Cook ground beef in a pan.",
+                "Add taco seasoning and mix well.",
+                "Warm taco shells in the oven.",
+                "Assemble tacos with beef, lettuce, tomatoes, and cheese.",
+                "Serve immediately."
+            ]
+        }
+        ,
+        {
+            "id": 5,
+            "name": "Pancakes",
+            "timeToPrepare": "15 minutes",
+            "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder", "butter"],
+            "steps": [
+            "Mix flour, sugar, and baking powder in a bowl.",
+            "Whisk in milk and eggs until smooth.",
+            "Heat a pan and melt butter.",
+            "Pour batter into the pan and cook until bubbles form.",
+            "Flip and cook until golden brown."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Caesar Salad",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
+            "steps": [
+            "Chop romaine lettuce.",
+            "Add croutons and parmesan cheese.",
+            "Toss with Caesar dressing.",
+            "Serve immediately."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Grilled Cheese Sandwich",
+            "timeToPrepare": "10 minutes",
+            "ingredients": ["bread", "cheese", "butter"],
+            "steps": [
+            "Butter the bread slices.",
+            "Place cheese between two slices of bread.",
+            "Grill in a pan until golden brown and cheese is melted.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Tomato Soup",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["tomatoes", "onion", "garlic", "vegetable broth", "cream"],
+            "steps": [
+            "Sauté onion and garlic.",
+            "Add tomatoes and cook until soft.",
+            "Blend the mixture until smooth.",
+            "Add vegetable broth and simmer.",
+            "Stir in cream and serve."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Chocolate Chip Cookies",
+            "timeToPrepare": "25 minutes",
+            "ingredients": ["flour", "sugar", "butter", "eggs", "chocolate chips", "baking soda"],
+            "steps": [
+            "Cream butter and sugar.",
+            "Add eggs and mix well.",
+            "Stir in flour and baking soda.",
+            "Fold in chocolate chips.",
+            "Bake at 350°F for 10-12 minutes."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Lasagna",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "mozzarella cheese", "parmesan cheese"],
+            "steps": [
+            "Cook lasagna noodles.",
+            "Brown ground beef and add tomato sauce.",
+            "Layer noodles, meat sauce, and cheeses in a baking dish.",
+            "Bake at 375°F for 45 minutes.",
+            "Let cool before serving."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "French Toast",
+            "timeToPrepare": "15 minutes",
+            "ingredients": ["bread", "eggs", "milk", "cinnamon", "sugar", "butter"],
+            "steps": [
+            "Whisk eggs, milk, cinnamon, and sugar.",
+            "Dip bread slices in the mixture.",
+            "Cook in a buttered pan until golden brown.",
+            "Serve with syrup."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Guacamole",
+            "timeToPrepare": "10 minutes",
+            "ingredients": ["avocados", "onion", "tomatoes", "lime", "cilantro", "salt"],
+            "steps": [
+            "Mash avocados.",
+            "Mix in chopped onion, tomatoes, and cilantro.",
+            "Add lime juice and salt to taste.",
+            "Serve with tortilla chips."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "BBQ Chicken Wings",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["chicken wings", "BBQ sauce", "salt", "pepper"],
+            "steps": [
+            "Season chicken wings with salt and pepper.",
+            "Bake at 400°F for 45 minutes.",
+            "Toss with BBQ sauce.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Margarita Pizza",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["pizza dough", "tomato sauce", "mozzarella cheese", "basil"],
+            "steps": [
+            "Roll out pizza dough.",
+            "Spread tomato sauce on the dough.",
+            "Top with mozzarella cheese and basil.",
+            "Bake at 475°F for 10-12 minutes.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Beef Stew",
+            "timeToPrepare": "2 hours",
+            "ingredients": ["beef", "potatoes", "carrots", "onions", "beef broth", "tomato paste"],
+            "steps": [
+            "Brown beef in a pot.",
+            "Add onions and cook until soft.",
+            "Add potatoes, carrots, beef broth, and tomato paste.",
+            "Simmer for 1.5 hours.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Shrimp Scampi",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["shrimp", "garlic", "butter", "lemon", "parsley", "pasta"],
+            "steps": [
+            "Cook pasta according to package instructions.",
+            "Sauté garlic in butter.",
+            "Add shrimp and cook until pink.",
+            "Stir in lemon juice and parsley.",
+            "Toss with pasta and serve."
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Egg Fried Rice",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["rice", "eggs", "peas", "carrots", "soy sauce", "green onions"],
+            "steps": [
+            "Cook rice and set aside.",
+            "Scramble eggs in a pan.",
+            "Add peas and carrots and cook until tender.",
+            "Stir in rice and soy sauce.",
+            "Garnish with green onions and serve."
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Stuffed Bell Peppers",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["bell peppers", "ground beef", "rice", "tomato sauce", "cheese"],
+            "steps": [
+            "Cut tops off bell peppers and remove seeds.",
+            "Brown ground beef and mix with cooked rice and tomato sauce.",
+            "Stuff peppers with the mixture.",
+            "Top with cheese and bake at 375°F for 45 minutes.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Chicken Alfredo",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["chicken breast", "fettuccine", "heavy cream", "parmesan cheese", "butter", "garlic"],
+            "steps": [
+            "Cook fettuccine according to package instructions.",
+            "Sauté garlic in butter.",
+            "Add chicken and cook until done.",
+            "Stir in heavy cream and parmesan cheese.",
+            "Toss with fettuccine and serve."
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Greek Salad",
+            "timeToPrepare": "15 minutes",
+            "ingredients": ["cucumber", "tomatoes", "red onion", "feta cheese", "olives", "olive oil", "oregano"],
+            "steps": [
+            "Chop cucumber, tomatoes, and red onion.",
+            "Mix with feta cheese and olives.",
+            "Drizzle with olive oil and sprinkle with oregano.",
+            "Serve immediately."
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Banana Bread",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs", "baking soda"],
+            "steps": [
+            "Mash bananas in a bowl.",
+            "Mix in sugar, butter, and eggs.",
+            "Stir in flour and baking soda.",
+            "Pour into a loaf pan and bake at 350°F for 50-60 minutes.",
+            "Let cool before serving."
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Fish Tacos",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["fish fillets", "taco seasoning", "taco shells", "cabbage", "lime", "cilantro"],
+            "steps": [
+            "Season fish with taco seasoning.",
+            "Cook fish in a pan until done.",
+            "Warm taco shells in the oven.",
+            "Assemble tacos with fish, cabbage, lime, and cilantro.",
+            "Serve immediately."
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Minestrone Soup",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["onion", "carrots", "celery", "tomatoes", "beans", "pasta", "vegetable broth"],
+            "steps": [
+            "Sauté onion, carrots, and celery.",
+            "Add tomatoes and cook until soft.",
+            "Stir in beans, pasta, and vegetable broth.",
+            "Simmer until pasta is cooked.",
+            "Serve hot."
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Apple Pie",
+            "timeToPrepare": "1.5 hours",
+            "ingredients": ["apples", "flour", "sugar", "butter", "cinnamon", "pie crust"],
+            "steps": [
+            "Peel and slice apples.",
+            "Mix apples with sugar and cinnamon.",
+            "Place in pie crust and dot with butter.",
+            "Cover with top crust and bake at 375°F for 50-60 minutes.",
+            "Let cool before serving."
+            ]
+        }
+        ,
+        {
+            "id": 25,
+            "name": "Quiche Lorraine",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["pie crust", "bacon", "eggs", "heavy cream", "gruyere cheese", "nutmeg"],
+            "steps": [
+                "Preheat oven to 375°F.",
+                "Cook bacon until crispy and chop.",
+                "Whisk eggs, heavy cream, and nutmeg.",
+                "Spread bacon and cheese in pie crust.",
+                "Pour egg mixture over bacon and cheese.",
+                "Bake for 35-40 minutes."
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Pad Thai",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["rice noodles", "shrimp", "eggs", "bean sprouts", "peanuts", "lime", "pad thai sauce"],
+            "steps": [
+                "Cook rice noodles according to package instructions.",
+                "Sauté shrimp until pink.",
+                "Scramble eggs in the pan.",
+                "Add noodles, bean sprouts, and pad thai sauce.",
+                "Toss everything together and serve with peanuts and lime."
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Clam Chowder",
+            "timeToPrepare": "45 minutes",
+            "ingredients": ["clams", "potatoes", "onion", "celery", "bacon", "cream", "butter"],
+            "steps": [
+                "Cook bacon until crispy and set aside.",
+                "Sauté onion and celery in butter.",
+                "Add potatoes and cook until tender.",
+                "Stir in clams and cream.",
+                "Simmer until thickened.",
+                "Top with bacon and serve."
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Falafel",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["chickpeas", "onion", "garlic", "parsley", "cumin", "coriander", "flour"],
+            "steps": [
+                "Blend chickpeas, onion, garlic, parsley, cumin, and coriander.",
+                "Form mixture into balls and coat with flour.",
+                "Fry until golden brown.",
+                "Serve with pita and tahini sauce."
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Eggplant Parmesan",
+            "timeToPrepare": "1.5 hours",
+            "ingredients": ["eggplant", "tomato sauce", "mozzarella cheese", "parmesan cheese", "breadcrumbs", "eggs"],
+            "steps": [
+                "Slice and salt eggplant to remove bitterness.",
+                "Dip eggplant slices in beaten eggs and coat with breadcrumbs.",
+                "Fry eggplant until golden brown.",
+                "Layer eggplant, tomato sauce, and cheeses in a baking dish.",
+                "Bake at 375°F for 45 minutes."
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Gazpacho",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["tomatoes", "cucumber", "bell pepper", "onion", "garlic", "olive oil", "vinegar"],
+            "steps": [
+                "Blend tomatoes, cucumber, bell pepper, onion, and garlic.",
+                "Add olive oil and vinegar.",
+                "Chill in the refrigerator before serving."
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Ratatouille",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["eggplant", "zucchini", "bell peppers", "tomatoes", "onion", "garlic", "olive oil"],
+            "steps": [
+                "Sauté onion and garlic in olive oil.",
+                "Add chopped eggplant, zucchini, and bell peppers.",
+                "Cook until vegetables are tender.",
+                "Stir in tomatoes and simmer for 20 minutes.",
+                "Serve hot."
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Chicken Parmesan",
+            "timeToPrepare": "45 minutes",
+            "ingredients": ["chicken breast", "breadcrumbs", "parmesan cheese", "mozzarella cheese", "tomato sauce", "eggs"],
+            "steps": [
+                "Dip chicken breasts in beaten eggs and coat with breadcrumbs.",
+                "Fry chicken until golden brown.",
+                "Place chicken in a baking dish and top with tomato sauce and cheeses.",
+                "Bake at 375°F for 20 minutes."
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Beef Stroganoff",
+            "timeToPrepare": "40 minutes",
+            "ingredients": ["beef", "onion", "mushrooms", "sour cream", "beef broth", "butter", "flour"],
+            "steps": [
+                "Sauté onion and mushrooms in butter.",
+                "Add beef and cook until browned.",
+                "Stir in flour and beef broth.",
+                "Simmer until thickened.",
+                "Stir in sour cream and serve over noodles."
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Chicken Noodle Soup",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["chicken", "carrots", "celery", "onion", "noodles", "chicken broth"],
+            "steps": [
+                "Cook chicken and shred.",
+                "Sauté onion, carrots, and celery.",
+                "Add chicken broth and bring to a boil.",
+                "Add noodles and cook until tender.",
+                "Stir in shredded chicken and serve."
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Tiramisu",
+            "timeToPrepare": "4 hours",
+            "ingredients": ["ladyfingers", "mascarpone cheese", "eggs", "sugar", "coffee", "cocoa powder"],
+            "steps": [
+                "Whisk egg yolks and sugar until thick.",
+                "Fold in mascarpone cheese.",
+                "Dip ladyfingers in coffee and layer in a dish.",
+                "Spread mascarpone mixture over ladyfingers.",
+                "Repeat layers and dust with cocoa powder.",
+                "Chill for at least 3 hours before serving."
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Chicken Caesar Wrap",
+            "timeToPrepare": "15 minutes",
+            "ingredients": ["chicken breast", "romaine lettuce", "Caesar dressing", "tortilla", "parmesan cheese"],
+            "steps": [
+                "Cook and slice chicken breast.",
+                "Toss romaine lettuce with Caesar dressing.",
+                "Place chicken and lettuce mixture on a tortilla.",
+                "Sprinkle with parmesan cheese and wrap."
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Stuffed Mushrooms",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["mushrooms", "cream cheese", "garlic", "parmesan cheese", "breadcrumbs"],
+            "steps": [
+                "Remove stems from mushrooms.",
+                "Mix cream cheese, garlic, and parmesan cheese.",
+                "Stuff mushrooms with the mixture.",
+                "Sprinkle with breadcrumbs and bake at 375°F for 20 minutes."
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Chicken Quesadilla",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["chicken breast", "tortillas", "cheese", "bell peppers", "onion"],
+            "steps": [
+                "Cook and slice chicken breast.",
+                "Sauté bell peppers and onion.",
+                "Place chicken, peppers, onion, and cheese on a tortilla.",
+                "Top with another tortilla and cook in a pan until cheese is melted.",
+                "Cut into wedges and serve."
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Pumpkin Pie",
+            "timeToPrepare": "1.5 hours",
+            "ingredients": ["pumpkin puree", "pie crust", "eggs", "sugar", "cinnamon", "nutmeg", "evaporated milk"],
+            "steps": [
+                "Preheat oven to 425°F.",
+                "Mix pumpkin puree, eggs, sugar, cinnamon, nutmeg, and evaporated milk.",
+                "Pour mixture into pie crust.",
+                "Bake for 15 minutes, then reduce temperature to 350°F and bake for 45 minutes.",
+                "Let cool before serving."
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Chicken Pot Pie",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["chicken", "carrots", "peas", "onion", "pie crust", "chicken broth", "flour", "butter"],
+            "steps": [
+                "Cook and shred chicken.",
+                "Sauté onion, carrots, and peas in butter.",
+                "Stir in flour and chicken broth to make a sauce.",
+                "Add chicken to the sauce.",
+                "Pour mixture into a pie crust and cover with another crust.",
+                "Bake at 375°F for 30 minutes."
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Shrimp Tacos",
+            "timeToPrepare": "20 minutes",
+            "ingredients": ["shrimp", "taco seasoning", "taco shells", "cabbage", "lime", "cilantro"],
+            "steps": [
+                "Season shrimp with taco seasoning.",
+                "Cook shrimp in a pan until done.",
+                "Warm taco shells in the oven.",
+                "Assemble tacos with shrimp, cabbage, lime, and cilantro.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "id": 42,
+            "name": "French Onion Soup",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["onions", "beef broth", "butter", "flour", "bread", "gruyere cheese"],
+            "steps": [
+                "Sauté onions in butter until caramelized.",
+                "Stir in flour and beef broth.",
+                "Simmer for 30 minutes.",
+                "Pour soup into bowls and top with bread and cheese.",
+                "Broil until cheese is melted and bubbly."
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Chicken Fajitas",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["chicken breast", "bell peppers", "onion", "fajita seasoning", "tortillas"],
+            "steps": [
+                "Slice chicken, bell peppers, and onion.",
+                "Cook chicken in a pan with fajita seasoning.",
+                "Add bell peppers and onion and cook until tender.",
+                "Serve with tortillas."
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Chocolate Mousse",
+            "timeToPrepare": "2 hours",
+            "ingredients": ["chocolate", "eggs", "sugar", "heavy cream"],
+            "steps": [
+                "Melt chocolate and let cool.",
+                "Whisk egg yolks and sugar until thick.",
+                "Fold in melted chocolate.",
+                "Whip heavy cream and fold into chocolate mixture.",
+                "Chill for at least 2 hours before serving."
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Vegetable Curry",
+            "timeToPrepare": "40 minutes",
+            "ingredients": ["mixed vegetables", "onion", "garlic", "ginger", "coconut milk", "curry powder"],
+            "steps": [
+                "Sauté onion, garlic, and ginger.",
+                "Add curry powder and cook for a minute.",
+                "Add mixed vegetables and cook until tender.",
+                "Pour in coconut milk and simmer for 20 minutes.",
+                "Serve hot."
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Lemon Bars",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["flour", "butter", "sugar", "eggs", "lemon juice", "lemon zest"],
+            "steps": [
+                "Preheat oven to 350°F.",
+                "Mix flour, butter, and sugar to make a crust.",
+                "Press crust into a baking dish and bake for 20 minutes.",
+                "Whisk eggs, sugar, lemon juice, and lemon zest.",
+                "Pour mixture over crust and bake for another 20 minutes.",
+                "Let cool before serving."
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Chicken Tikka Masala",
+            "timeToPrepare": "1 hour",
+            "ingredients": ["chicken breast", "yogurt", "garlic", "ginger", "tomato sauce", "cream", "spices"],
+            "steps": [
+                "Marinate chicken in yogurt, garlic, ginger, and spices.",
+                "Cook chicken in a pan until done.",
+                "Add tomato sauce and simmer.",
+                "Stir in cream and cook for another 10 minutes.",
+                "Serve with rice."
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Blueberry Muffins",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["flour", "sugar", "butter", "eggs", "milk", "blueberries", "baking powder"],
+            "steps": [
+                "Preheat oven to 375°F.",
+                "Mix flour, sugar, and baking powder.",
+                "Whisk in eggs, milk, and melted butter.",
+                "Fold in blueberries.",
+                "Pour batter into muffin tins and bake for 20 minutes."
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Beef Wellington",
+            "timeToPrepare": "2 hours",
+            "ingredients": ["beef tenderloin", "mushrooms", "puff pastry", "prosciutto", "mustard", "egg"],
+            "steps": [
+                "Sear beef tenderloin and let cool.",
+                "Chop and sauté mushrooms.",
+                "Spread mustard on beef and wrap with prosciutto and mushrooms.",
+                "Wrap beef in puff pastry and brush with egg wash.",
+                "Bake at 400°F for 30-40 minutes."
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Pasta Primavera",
+            "timeToPrepare": "30 minutes",
+            "ingredients": ["pasta", "mixed vegetables", "olive oil", "garlic", "parmesan cheese"],
+            "steps": [
+                "Cook pasta according to package instructions.",
+                "Sauté garlic in olive oil.",
+                "Add mixed vegetables and cook until tender.",
+                "Toss pasta with vegetables and parmesan cheese.",
+                "Serve hot."
+            ]
+        }
+    ]

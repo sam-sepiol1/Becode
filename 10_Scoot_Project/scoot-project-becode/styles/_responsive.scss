@@ -1,0 +1,7 @@
+$md-screen: 768px;
+$lg-screen: 1040px;
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}

@@ -1,0 +1,72 @@
+.container {
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-image: url("./assets/dj-1523485_640.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 300px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.hero {
+	background-color:whitesmoke;
+	width: 100%;
+
+	.cto {
+		background-color: rgb(255, 21, 0);
+		color: aliceblue;
+		display: inline;
+		position: relative;
+		top: -20px;
+		padding: 5px 10px;
+	}
+
+	h2,
+	h4 {
+		margin: 10px 15px;
+	}
+
+	.text {
+		max-height: 0;
+		opacity: 0;
+		padding: 15px;
+	}
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+
+		p {
+			padding: 0 15px;
+		}
+	}
+}
+
+.card:hover {
+	transition: 0.5s ease-in-out;
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("./assets/dj-1523485_640.jpg");
+	background-size: 150%;
+
+	.text {
+		transition: 0.5s ease-in-out;
+		max-height: 200px;
+		opacity: 1;
+	}
+}
+
+.card:not(:hover) {
+	transition: 0.5s ease-in-out;
+	.text {
+		transition: 0.5s ease-in-out;
+	}
+}

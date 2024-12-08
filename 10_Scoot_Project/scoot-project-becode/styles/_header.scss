@@ -1,0 +1,145 @@
+@use "./colors" as *;
+
+$md-screen: 768px;
+
+@mixin media-minwidth($screensize) {
+	@media (min-width: $screensize) {
+		@content;
+	}
+}
+
+/* The header */
+.header-nav  {
+	width: 100%;
+	height: 64px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	@include media-minwidth($md-screen) {
+		height: 96px;
+	}
+}
+
+.header-nav-bar {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 24px 0;
+	position: sticky;
+	z-index: 3;
+	background-color: #fff;
+
+	.mobile { 
+		@include media-minwidth($md-screen) {
+			display: none;
+		}
+	}
+
+	.desktop {
+		display: none;
+		@include media-minwidth($md-screen) {
+			display: flex;
+		}
+	}
+
+	&-logo {
+		margin: auto;
+		
+		@include media-minwidth($md-screen) {
+			margin: 0;
+			margin-left: 32px;
+			margin-right: 58px;
+		}
+	}
+
+	&-button {
+		padding-left: 32px;
+
+		@include media-minwidth($md-screen) {
+			display: none;
+		}
+	}
+
+	&-desktop{ 
+		display: none;
+		@include media-minwidth($md-screen) {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin-right: 32px;
+			width: 100%;
+
+			&-links-link {
+				margin: 0 16px;
+				text-decoration: none;
+				color: $dim-grey;
+				font-family: "Space Mono";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 25px;
+
+				&:hover {
+					color: $yellow;
+				}
+			}
+
+			&-button { 
+				margin-left: auto;
+			}
+			
+		}
+	}
+
+
+}
+
+/* The sidepanel menu */
+.header-sidepanel {
+
+	transition: 0.5s;
+	position: absolute;
+	height: 100%;
+	width: 0;
+	z-index: 2;
+	overflow-x: hidden;
+	padding-top: 60 + 64px;
+	background-color: $dark-navy;
+	display: flex;
+	flex-direction: column;
+
+
+
+	&-link {
+		color: $snow;
+		text-decoration: none;
+		font-family: "Space Mono";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 25px;
+		margin: 12px 32px;
+	}
+
+	&-button { 
+		margin: auto 32px 24px 32px; 
+	}
+
+
+
+	@include media-minwidth($md-screen) {
+		display: none;
+	}
+}
+
+.visually-shown {
+	width: 250px;
+}
+
+.toggle-btn {
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	color: $yellow;
+}

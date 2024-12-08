@@ -1,0 +1,16 @@
+@use 'colors' as *;
+
+.button { 
+    background-color: $yellow;
+    border: none;
+    color: $snow;
+    width: 180px;
+    height: 53px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 3px solid $yellow;
+    color: $yellow;
+}
+
